@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+#anterior {
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 2px;
+    left: -10px;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#proximo {
+    font-size: 100px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 2px;
+    right: -10px;
+    background-color: transparent;
+    color: transparent;
+    border: none;
+    cursor: pointer;
+}
+#anterior:hover {
+    color: rgba(255, 255, 255, 0.397);
+    transition: all 0.4s;
+}
+#proximo:hover {
+    color: rgba(255, 255, 255, 0.397);
+    transition: all 0.4s;
+}
+
